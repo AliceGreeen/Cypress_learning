@@ -1,55 +1,54 @@
-// describe ('Какой-то блок проверок 1', () => {
-//     context ('Это первая проверка', () => {
-//         it('Ошибка при авторизации: Пользователь не может быть авторизован', () => {   
-//         })
-//     })
-// })
-/// <reference types="Cypress" /> 
+describe ('Какой-то блок проверок 1', () => {
+    context ('Это первая проверка', () => {
+        it('Ошибка при авторизации: Пользователь не может быть авторизован', () => {   
+        })
+    })
+})
+///п <reference types="Cypress" /> 
 
-// it('By ID', () =>
-// {
-//     cy.visit("http://vk.com/")
-//     cy.get("index_email")
-// })
+it('By ID', () =>
+{
+    cy.visit("http://vk.com/")
+    cy.get("index_email")
+})
 
-// it('By Class', () =>
-// {
-//  cy.visit("https://dev-wms.okolo.app/auth")
-//  cy.get("[class='basis-input__input basis-input__input--size_large'][placeholder='+7 (___) ___-__-__']")
-// })
+it('By Class', () =>
+{
+ cy.visit("https://dev-wms.okolo.app/auth")
+ cy.get("[class='basis-input__input basis-input__input--size_large'][placeholder='+7 (___) ___-__-__']")
+})
 
-// it("By Tag", () =>
-// {
-//     cy.visit("https://docs.cypress.io/guides/references/legacy-configuration")
-//     cy.get("nav")
-// })
+it("By Tag", () =>
+{
+    cy.visit("https://docs.cypress.io/guides/references/legacy-configuration")
+    cy.get("nav")
+})
 
-// it("By Different Types", () =>
-// {
-//     cy.visit("https://learn.cypress.io/")
-//     cy.get("path[fill-rule='evenodd'][clip-rule='evenodd']")
-// })
+it("By Different Types", () =>
+{
+    cy.visit("https://learn.cypress.io/")
+    cy.get("path[fill-rule='evenodd'][clip-rule='evenodd']")
+})
 
-// it.only("By Contains name", () => 
-// {
-//     cy.visit("https://learn.cypress.io/")
-//     cy.get("*[class^='text-gray-900']")
-// })
+it.only("By Contains name", () => 
+{
+    cy.visit("https://learn.cypress.io/")
+    cy.get("*[class^='text-gray-900']")
+})
 
-// it.only("By Contains name", () => 
-// {
-//     cy.visit("https://learn.cypress.io/")
-//     cy.get("*[class^='text-gray-900']")
-// })
+it.only("By Contains name", () => 
+{
+    cy.visit("https://learn.cypress.io/")
+    cy.get("*[class^='text-gray-900']")
+})
 
-// it.only("By Contains name", () => 
-// {
-//     cy.visit("https://learn.cypress.io/")
-//     cy.get("*[class^='text-gray-900']")
-//     cy.get()
-// })
+it.only("By Contains name", () => 
+{
+    cy.visit("https://learn.cypress.io/")
+    cy.get("*[class^='text-gray-900']")
+    cy.get()
+})
 
-//comment
 it("Using Get with Find and eq", () =>
 {
 cy.visit('https://yandex.ru/pogoda/kostroma?utm_campaign=informer&utm_source=home&utm_content=main_informer&utm_medium=web&utm_term=title&lat=57.767961&lon=40.926858')
