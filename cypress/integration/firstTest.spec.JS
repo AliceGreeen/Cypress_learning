@@ -49,6 +49,7 @@
 //     cy.get()
 // })
 
+//comment
 it("Using Get with Find and eq", () =>
 {
 cy.visit('https://yandex.ru/pogoda/kostroma?utm_campaign=informer&utm_source=home&utm_content=main_informer&utm_medium=web&utm_term=title&lat=57.767961&lon=40.926858')
