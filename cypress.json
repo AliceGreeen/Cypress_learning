@@ -1,0 +1,5 @@
+{
+    "BaseURL":"https://dev-wms.okolo.app/",
+    "ignoreTestFiles": ["**/2-advanced-examples/*", "**/1-getting-started/*"]
+
+}
